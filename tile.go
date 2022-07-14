@@ -1,4 +1,4 @@
-package main
+package tile
 
 import (
 	"math"
@@ -21,8 +21,8 @@ func NewTileWithLatLong(lat float64, long float64, zoom int) (t *Tile) {
 	t = new(Tile)
 	t.Lat = lat
 	t.Long = long
-	t.X, t.Y = t.Deg2num()
 	t.Z = zoom
+	t.X, t.Y = t.Deg2num()
 	return
 }
 
