@@ -1,3 +1,6 @@
+// copied and slightly adapted from https://github.com/apeyroux/gosm/gosm.go
+// author : Alexandre Peyroux
+
 package tile
 
 import (

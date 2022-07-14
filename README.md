@@ -38,3 +38,7 @@ EXAMPLES:
    #get cordinates for a tile number
    osmtile --x-y --zoom 15 16895,11768                                                                                           
 ```
+
+CREDITS
+
+Based on [gosm](https://github.com/apeyroux/gosm) by Alexandre Peyroux
